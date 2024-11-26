@@ -18,6 +18,7 @@ def test_while():
     )
 
     # Print statements for debugging
+    print("\nTesting While:")
     print(f"Test input (n): {n}")
     print(f"Expected output: {expected_output.strip()}")
     print(f"Actual output: {result.stdout.strip()}")
@@ -42,6 +43,7 @@ def test_for():
     )
 
     # Print statements for debugging
+    print("\nTesting For: ")
     print(f"Test input (n): {n}")
     print(f"Expected output: {expected_output.strip()}")
     print(f"Actual output: {result.stdout.strip()}")
